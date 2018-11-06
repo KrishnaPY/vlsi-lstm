@@ -1,0 +1,2 @@
+Tensor("Mul_5:0", shape=(1, 128), dtype=float32) <tf.Variable 'Variable_20:0' shape=(128, 43) dtype=float32_ref> <tf.Variable 'Variable_25:0' shape=(43,) dtype=float32_ref>
+Tensor("Placeholder_3:0", shape=(?, 43), dtype=float32)

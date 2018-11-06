@@ -1,0 +1,214 @@
+Parsing Inputs...
+
+=========================Options=============================
+-max_depth                  10000
+-min_bytes                  0
+-min_peak_bytes             0
+-min_residual_bytes         0
+-min_output_bytes           0
+-min_micros                 0
+-min_accelerator_micros     0
+-min_cpu_micros             0
+-min_params                 0
+-min_float_ops              1
+-min_occurrence             0
+-step                       -1
+-order_by                   float_ops
+-account_type_regexes       .*
+-start_name_regexes         .*
+-trim_name_regexes          
+-show_name_regexes          .*
+-hide_name_regexes          
+-account_displayed_op_only  true
+-select                     float_ops
+-output                     stdout:
+
+==================Model Analysis Report======================
+node name | # float_ops
+_TFProfRoot (--/1.51m flops)
+  random_uniform_8 (32.77k/65.54k flops)
+    random_uniform_8/mul (32.77k/32.77k flops)
+    random_uniform_8/sub (1/1 flops)
+  random_uniform_7 (32.77k/65.54k flops)
+    random_uniform_7/mul (32.77k/32.77k flops)
+    random_uniform_7/sub (1/1 flops)
+  random_uniform_6 (32.77k/65.54k flops)
+    random_uniform_6/mul (32.77k/32.77k flops)
+    random_uniform_6/sub (1/1 flops)
+  random_uniform_5 (32.77k/65.54k flops)
+    random_uniform_5/mul (32.77k/32.77k flops)
+    random_uniform_5/sub (1/1 flops)
+  MatMul_5 (65.54k/65.54k flops)
+  gradients/MatMul_8_grad/MatMul_1 (65.54k/65.54k flops)
+  gradients/MatMul_8_grad/MatMul (65.54k/65.54k flops)
+  gradients/MatMul_7_grad/MatMul_1 (65.54k/65.54k flops)
+  gradients/MatMul_7_grad/MatMul (65.54k/65.54k flops)
+  gradients/MatMul_6_grad/MatMul_1 (65.54k/65.54k flops)
+  gradients/MatMul_6_grad/MatMul (65.54k/65.54k flops)
+  gradients/MatMul_5_grad/MatMul_1 (65.54k/65.54k flops)
+  gradients/MatMul_5_grad/MatMul (65.54k/65.54k flops)
+  MatMul_6 (65.54k/65.54k flops)
+  MatMul_7 (65.54k/65.54k flops)
+  MatMul_8 (65.54k/65.54k flops)
+  random_uniform_3 (21.89k/43.78k flops)
+    random_uniform_3/mul (21.89k/21.89k flops)
+    random_uniform_3/sub (1/1 flops)
+  random_uniform_2 (21.89k/43.78k flops)
+    random_uniform_2/mul (21.89k/21.89k flops)
+    random_uniform_2/sub (1/1 flops)
+  random_uniform_1 (21.89k/43.78k flops)
+    random_uniform_1/mul (21.89k/21.89k flops)
+    random_uniform_1/sub (1/1 flops)
+  random_uniform (21.89k/43.78k flops)
+    random_uniform/mul (21.89k/21.89k flops)
+    random_uniform/sub (1/1 flops)
+  gradients/MatMul_3_grad/MatMul (43.78k/43.78k flops)
+  gradients/MatMul_grad/MatMul (43.78k/43.78k flops)
+  gradients/MatMul_2_grad/MatMul (43.78k/43.78k flops)
+  gradients/MatMul_1_grad/MatMul (43.78k/43.78k flops)
+  random_uniform_4 (16.38k/32.77k flops)
+    random_uniform_4/mul (16.38k/16.38k flops)
+    random_uniform_4/sub (1/1 flops)
+  MatMul_4 (32.77k/32.77k flops)
+  random_uniform_9 (5.50k/11.01k flops)
+    random_uniform_9/mul (5.50k/5.50k flops)
+    random_uniform_9/sub (1/1 flops)
+  gradients/MatMul_9_grad/MatMul (11.01k/11.01k flops)
+  gradients/MatMul_9_grad/MatMul_1 (11.01k/11.01k flops)
+  MatMul_9 (11.01k/11.01k flops)
+  gradients/AddN (768/768 flops)
+  gradients/AddN_1 (513/513 flops)
+  add_7 (128/128 flops)
+  gradients/Mul_4_grad/Mul_1 (128/128 flops)
+  gradients/Mul_5_grad/Mul (128/128 flops)
+  gradients/Mul_5_grad/Mul_1 (128/128 flops)
+  gradients/Mul_grad/mul (128/128 flops)
+  gradients/Mul_grad/mul_1 (128/128 flops)
+  add_9 (128/128 flops)
+  add_8 (128/128 flops)
+  gradients/Mul_4_grad/Mul (128/128 flops)
+  add_6 (128/128 flops)
+  add_5 (128/128 flops)
+  add_4 (128/128 flops)
+  add_3 (128/128 flops)
+  add_2 (128/128 flops)
+  add_10 (128/128 flops)
+  Mul_5 (128/128 flops)
+  gradients/Mul_3_grad/mul_1 (128/128 flops)
+  gradients/Mul_3_grad/mul (128/128 flops)
+  gradients/Mul_2_grad/Mul_1 (128/128 flops)
+  gradients/Mul_2_grad/Mul (128/128 flops)
+  gradients/Mul_1_grad/Mul_1 (128/128 flops)
+  gradients/Mul_1_grad/Mul (128/128 flops)
+  add_1 (128/128 flops)
+  add (128/128 flops)
+  Mul (128/128 flops)
+  Mul_1 (128/128 flops)
+  Mul_2 (128/128 flops)
+  Mul_3 (128/128 flops)
+  Mul_4 (128/128 flops)
+  gradients/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/mul (43/43 flops)
+  add_11 (43/43 flops)
+
+======================End of Report==========================
+Epoch: 0 Loss: [2838.0186]
+Epoch: 1 Loss: [2834.6829]
+Epoch: 2 Loss: [2831.6887]
+Epoch: 3 Loss: [2828.9385]
+Epoch: 4 Loss: [2826.3516]
+Epoch: 5 Loss: [2823.8696]
+Epoch: 6 Loss: [2821.4424]
+Epoch: 7 Loss: [2819.0298]
+Epoch: 8 Loss: [2816.5996]
+Epoch: 9 Loss: [2814.124]
+Epoch: 10 Loss: [2811.582]
+Epoch: 11 Loss: [2808.95]
+Epoch: 12 Loss: [2806.21]
+Epoch: 13 Loss: [2803.351]
+Epoch: 14 Loss: [2800.3564]
+Epoch: 15 Loss: [2797.217]
+Epoch: 16 Loss: [2793.9395]
+Epoch: 17 Loss: [2790.5215]
+Epoch: 18 Loss: [2786.9744]
+Epoch: 19 Loss: [2783.313]
+Epoch: 20 Loss: [2779.5627]
+Epoch: 21 Loss: [2775.7417]
+Epoch: 22 Loss: [2771.879]
+Epoch: 23 Loss: [2768.0044]
+Epoch: 24 Loss: [2764.1335]
+Epoch: 25 Loss: [2760.2869]
+Epoch: 26 Loss: [2756.4688]
+Epoch: 27 Loss: [2752.6855]
+Epoch: 28 Loss: [2748.9302]
+Epoch: 29 Loss: [2745.196]
+Epoch: 30 Loss: [2741.475]
+Epoch: 31 Loss: [2737.7517]
+Epoch: 32 Loss: [2734.0156]
+Epoch: 33 Loss: [2730.2576]
+Epoch: 34 Loss: [2726.461]
+Epoch: 35 Loss: [2722.6123]
+Epoch: 36 Loss: [2718.703]
+Epoch: 37 Loss: [2714.7183]
+Epoch: 38 Loss: [2710.646]
+Epoch: 39 Loss: [2706.4705]
+Epoch: 40 Loss: [2702.1755]
+Epoch: 41 Loss: [2697.7495]
+Epoch: 42 Loss: [2693.1873]
+Epoch: 43 Loss: [2688.4802]
+Epoch: 44 Loss: [2683.6318]
+Epoch: 45 Loss: [2678.6392]
+Epoch: 46 Loss: [2673.515]
+Epoch: 47 Loss: [2668.2698]
+Epoch: 48 Loss: [2662.9177]
+Epoch: 49 Loss: [2657.483]
+Epoch: 50 Loss: [2651.984]
+Epoch: 51 Loss: [2646.4485]
+Epoch: 52 Loss: [2640.9048]
+Epoch: 53 Loss: [2635.3896]
+Epoch: 54 Loss: [2629.9167]
+Epoch: 55 Loss: [2624.5115]
+Epoch: 56 Loss: [2619.1868]
+Epoch: 57 Loss: [2613.9502]
+Epoch: 58 Loss: [2608.8162]
+Epoch: 59 Loss: [2603.7747]
+Epoch: 60 Loss: [2598.8228]
+Epoch: 61 Loss: [2593.9502]
+Epoch: 62 Loss: [2589.141]
+Epoch: 63 Loss: [2584.398]
+Epoch: 64 Loss: [2579.6958]
+Epoch: 65 Loss: [2575.0288]
+Epoch: 66 Loss: [2570.3948]
+Epoch: 67 Loss: [2565.78]
+Epoch: 68 Loss: [2561.187]
+Epoch: 69 Loss: [2556.6165]
+Epoch: 70 Loss: [2552.071]
+Epoch: 71 Loss: [2547.5544]
+Epoch: 72 Loss: [2543.0837]
+Epoch: 73 Loss: [2538.6685]
+Epoch: 74 Loss: [2534.318]
+Epoch: 75 Loss: [2530.051]
+Epoch: 76 Loss: [2525.8767]
+Epoch: 77 Loss: [2521.8098]
+Epoch: 78 Loss: [2517.8594]
+Epoch: 79 Loss: [2514.0322]
+Epoch: 80 Loss: [2510.3374]
+Epoch: 81 Loss: [2506.767]
+Epoch: 82 Loss: [2503.3257]
+Epoch: 83 Loss: [2500.0046]
+Epoch: 84 Loss: [2496.7998]
+Epoch: 85 Loss: [2493.7002]
+Epoch: 86 Loss: [2490.6992]
+Epoch: 87 Loss: [2487.7896]
+Epoch: 88 Loss: [2484.9517]
+Epoch: 89 Loss: [2482.186]
+Epoch: 90 Loss: [2479.483]
+Epoch: 91 Loss: [2476.8337]
+Epoch: 92 Loss: [2474.2239]
+Epoch: 93 Loss: [2471.6594]
+Epoch: 94 Loss: [2469.1272]
+Epoch: 95 Loss: [2466.6226]
+Epoch: 96 Loss: [2464.1387]
+Epoch: 97 Loss: [2461.6782]
+Epoch: 98 Loss: [2459.2312]
+Epoch: 99 Loss: [2456.8]
+Optimization Done!
