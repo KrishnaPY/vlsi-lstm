@@ -1,0 +1,8 @@
+\chapter{Future Work}
+A majority of the work that has been done is to come up to speed with the current paradigms in compression of a network and also familiarising with the Digital Signal Processing techniques for optimizing VLSI implementations. The future work can be broadly classified into three phases:
+\begin{enumerate}
+\item \textbf{Finalising the architecture of the Network:} The first step is to finalize on the compressed model by experimenting with the various techniques described in Network Compression chapter. This involves trying pruning alone, pruning with quantization and also experimenting with knowledge distillation and sparse matrix decompositions of the weight matrices.
+\item \textbf{Memory management and DA architecture:} In tandem with step 1, the final optimized structure of DA including ROM decomposition and OBC has to be constructed. Also, the different levels of memory i.e., deciding the on-board SRAM memory size and off-chip DRAM memory size and arrangement have to be decided.
+\item \textbf{Non-linear activations:} The non-linear functions $sigmoid$ and $tanh$ introduces additional latency in the model. Linearizing these functions piecewise can lead to a speedup of the network.
+\item \textbf{Pipelining:} This involves two distinct approaches. The first is to pipeline the tasks inside a single LSTM cell. The other avenue of pipelining is to treat the LSTM cell as a black box and pipeline the different the layers of the network.
+\end{enumerate}

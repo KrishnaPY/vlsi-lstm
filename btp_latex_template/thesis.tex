@@ -40,6 +40,7 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{graphicx}
+\usepackage{wrapfig}
 \usepackage[english]{babel}
 \usepackage{mathrsfs}
 %\usepackage{fancyhdr}
@@ -53,12 +54,13 @@
 \usepackage{times}
 \DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
 
-
+\usepackage{setspace}
 \usepackage{amssymb}
 %\usepackage{dsfont}
 %\usepackage{stmaryrd}
 \usepackage{amsmath}
 \usepackage{mathrsfs}
+\usepackage{array}
 %=====================================================================
 %  Single counter for theorems and theorem-like environments:
 %=====================================================================
@@ -79,8 +81,11 @@
 \newcommand{\expc}[2][]{E_{#1}\left[{#2}\right]}
 
 % End of Preamble, start of document
+\graphicspath{ {./} }
 %
 \begin{document}
+
+\begin{spacing}{1.4}
 
 %=====================================================================
 % Include the prelude for Title page, abstract, table of contents, etc
@@ -90,11 +95,14 @@
 %=====================================================================
 % Include the technical part of the report
 \include{introduction}        % Chapter 1: Introduction
-%\include{literature}         % Chapter 2: Literature survey
-%\include{system}             % Chapter 3: System model and formulating the problem statement
-%\include{analysis}           % Chapter 4: Analysis
-%\include{results}            % Chapter 5: Simulation and Results
+\include{chapter3}         % Chapter 2: Literature survey
+\include{chapter4}             % Chapter 3: System model and formulating the problem statement
+\include{chapter1}
+\include{proposed}
+\include{future}           % Chapter 4: Analysis
+            % Chapter 5: Simulation and Results
 %\include{conclusion}         % Chapter 6: Finally the summary & conclusions
+\end{spacing}
 
 %=====================================================================
 % APPENDIX
@@ -113,7 +121,8 @@
 %\bibliographystyle{plain}
 % Add the bib file
 %% \bibliography{bibfile}
-\begin{thebibliography}{9}
+
+\begin{thebibliography}{10}
 \begin{small}
 
 \bibitem{ref:FCC}

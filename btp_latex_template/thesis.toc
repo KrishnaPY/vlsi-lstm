@@ -1,5 +1,37 @@
-\contentsline {chapter}{Abstract}{iv}
-\contentsline {chapter}{List of Figures}{vi}
-\contentsline {chapter}{Nomenclature}{vii}
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{List of Figures}{v}
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}VLSI Design Flow}{1}
+\contentsline {section}{\numberline {1.2}Machine Learning}{2}
+\contentsline {section}{\numberline {1.3}Literature Review}{2}
+\contentsline {section}{\numberline {1.4}Problem Formulation}{2}
+\contentsline {chapter}{\numberline {2}Recurrent Neural Networks}{4}
+\contentsline {section}{\numberline {2.1}RNN Structure}{4}
+\contentsline {section}{\numberline {2.2}Long Short Term Memory Networks}{5}
+\contentsline {subsection}{\numberline {2.2.1}Multi-Layer LSTM}{7}
+\contentsline {subsection}{\numberline {2.2.2}Google LSTM}{7}
+\contentsline {chapter}{\numberline {3}Network Compression}{8}
+\contentsline {section}{\numberline {3.1}Low Displacement Rank Networks}{8}
+\contentsline {section}{\numberline {3.2}Pruning and Quantization}{9}
+\contentsline {subsection}{\numberline {3.2.1}Pruning}{9}
+\contentsline {subsection}{\numberline {3.2.2}Quantization}{9}
+\contentsline {chapter}{\numberline {4}Distributed Arithmetic}{10}
+\contentsline {section}{\numberline {4.1}Conventional Distributed Arithmetic}{10}
+\contentsline {section}{\numberline {4.2}ROM Decomposition}{12}
+\contentsline {section}{\numberline {4.3}Offset Binary Coding}{13}
+\contentsline {section}{\numberline {4.4}Applying Distributed Arithmetic to LSTM}{15}
+\contentsline {chapter}{\numberline {5}Proposed Algorithm and Architecture}{16}
+\contentsline {section}{\numberline {5.1}Profiling an LSTM}{16}
+\contentsline {section}{\numberline {5.2}Matrix-Vector Multiplication}{17}
+\contentsline {subsection}{\numberline {5.2.1}Distributed Arithmetic}{17}
+\contentsline {subsubsection}{Offset Binary Coding}{17}
+\contentsline {subsubsection}{ROM Decomposition}{17}
+\contentsline {subsubsection}{Applying DA to LSTMs}{17}
+\contentsline {subsection}{\numberline {5.2.2}Network Compression}{17}
+\contentsline {subsubsection}{Pruning}{17}
+\contentsline {subsubsection}{Quantization}{17}
+\contentsline {subsubsection}{Low Displacement Rank Methods}{17}
+\contentsline {subsubsection}{Knowledge Distillation}{17}
+\contentsline {subsubsection}{Logic Based without DA}{17}
+\contentsline {chapter}{\numberline {6}Future Work}{18}

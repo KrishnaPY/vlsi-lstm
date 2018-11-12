@@ -1,0 +1,13 @@
+\chapter{Recurrent Neural Networks}
+\label{chap:rnn}
+Any supervised deep learning algorithm consists of primarily two phases i.e., training and inference. Training is where the network is operated on a dataset consisting of input features, like a speech segment, and the associated correct output, as in this case the word it represents. Once the model has been trained it has the capability to predict the output given a completely new input to an extent of accuracy that is determined the training scheme, the model, the dataset and various other parameters. We now elaborate on the model of a recurrent neural network, illustrate its operation and tranining mechanism and then explain in detail the model of a Long Short Term Memory Network (LSTM).
+
+\section{RNN Structure}
+The Recurrent Neural Network consists of a hidden state that is updated on every new input to the network. The updatation of the hidden state of the network is influenced by both the previous state of the network and the new input. The output of the network depends on the hidden state of the network. For a single hidden layer the network can be formulated as follows.
+Let the hidden state vector be represented by $\mathbf{h}_t\in\mathbb{R}^{m}$ where $m$ is the dimensionality of the hidden state vector. 
+\begin{eqnarray*}
+\mathbf{h}_t = f_{W}(\mathbf{h}_{t-1},\mathbf{x}_t)
+\mathbf{h}_t = tanh(\mathbf{W}_{hh}\mathbf{h}_{t-1} + \mathbf{W}_{xh}\mathbf{x}_t)
+\mathbf{y}_t = \mathbf{h}_{hy}\mathbf{h}_t
+
+\end{eqnarray}

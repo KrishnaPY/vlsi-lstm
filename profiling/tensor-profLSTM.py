@@ -51,10 +51,18 @@ class LSTM_cell(object):
 		self.x = tf.reshape(inputs,(1,-1))
 		self.h = tf.reshape(self.h,(1,-1))
 		self.P = tf.concat(values=[self.x, self.h],axis=1)
-		self.i = tf.nn.sigmoid(tf.matmul(self.P,self.Wi) + self.Bi)
-		self.f = tf.nn.sigmoid(tf.matmul(self.P,self.Wf) + self.Bf)
-		self.o = tf.nn.sigmoid(tf.matmul(self.P,self.Wo) + self.Bo)
-		self.g = tf.nn.tanh(tf.matmul(self.P,self.Wg) + self.Bg)
+
+		self.iI = tf.matmul(self.P,self.Wi) + self.Bi
+		self.i = tf.nn.sigmoid(self.iI)
+		
+		self.fI = tf.matmul(self.P,self.Wf) + self.Bf
+		self.f = tf.nn.sigmoid(self.fI)
+		
+		self.oI = tf.matmul(self.P,self.Wo) + self.Bo
+		self.o = tf.nn.sigmoid(self.oI)
+
+		self.gI = tf.matmul(self.P,self.Wg) + self.Bg
+		self.g = tf.nn.tanh(self.gI)
 
 		self.c = tf.multiply(self.f,self.c) + tf.multiply(self.i,self.g)
 		self.h = tf.multiply(self.o,tf.nn.tanh(self.c))
@@ -94,39 +102,41 @@ correct_character = tf.placeholder(tf.int32,[1])
 H1, C1, _ = Cell_1.forward_step(character, output='yes')
 H2, C2, output = Cell_2.forward_step(H1, output='Yes')
 
-loss = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=correct_character,  logits=output)
-optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
-
-train_op = optimizer.minimize(loss)
-
-init = tf.global_variables_initializer()
-writer = tf.summary.FileWriter('.')
-writer.add_graph(tf.get_default_graph())
-
-saver = tf.train.Saver()
 tf.profiler.profile(tf.get_default_graph(), options=tf.profiler.ProfileOptionBuilder.float_operation())
 
-# with_step(0).with_timeline_output('profileLSTM.json')
 
-with tf.Session() as sess:
-	sess.run(init)
-  	saver.restore(sess, "./model1.ckpt")
+# loss = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=correct_character,  logits=output)
+# optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
 
-	for epoch in range(num_epochs):
-		error = 0
-		for char in range(data_size-1):
-			charIN = np.zeros((1,vocab_size))
-			charIN[0,ixData[char]] = 1
+# train_op = optimizer.minimize(loss)
 
-			charOUT = np.ndarray((1))
-			charOUT[0] = ixData[char+1]
+# init = tf.global_variables_initializer()
+# writer = tf.summary.FileWriter('.')
+# writer.add_graph(tf.get_default_graph())
 
-			sess.run(train_op, feed_dict={character: charIN, correct_character: charOUT})
-			curr_loss = sess.run(loss, feed_dict={character: charIN, correct_character: charOUT})
-			error+=curr_loss
-		print("Epoch: "+str(epoch)+" Loss: "+ str(error))
-	saver.save(sess, "./model2.ckpt")
-	print("Optimization Done!")
+# saver = tf.train.Saver()
+
+# # with_step(0).with_timeline_output('profileLSTM.json')
+
+# with tf.Session() as sess:
+# 	sess.run(init)
+#   	saver.restore(sess, "./model1.ckpt")
+
+# 	for epoch in range(num_epochs):
+# 		error = 0
+# 		for char in range(data_size-1):
+# 			charIN = np.zeros((1,vocab_size))
+# 			charIN[0,ixData[char]] = 1
+
+# 			charOUT = np.ndarray((1))
+# 			charOUT[0] = ixData[char+1]
+
+# 			sess.run(train_op, feed_dict={character: charIN, correct_character: charOUT})
+# 			curr_loss = sess.run(loss, feed_dict={character: charIN, correct_character: charOUT})
+# 			error+=curr_loss
+# 		print("Epoch: "+str(epoch)+" Loss: "+ str(error))
+# 	saver.save(sess, "./model2.ckpt")
+# 	print("Optimization Done!")
 
 
 

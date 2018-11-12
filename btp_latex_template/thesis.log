@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  6 NOV 2018 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  11 NOV 2018 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,8 +11,8 @@ Document Class: iitgthesis 2007/06/25 IIT Guwahati Thesis Format
 Document Class `iitgthesis' beta <April 2013>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -131,6 +131,14 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip45
 \dth@everypar=\toks21
 )
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen115
+\WF@size=\dimen116
+\c@WF@wrappedlines=\count91
+\WF@box=\box26
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
@@ -139,8 +147,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count91
-\U@D=\dimen115
+\babel@savecnt=\count92
+\U@D=\dimen117
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -152,8 +160,8 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks22
-\verbatim@line=\toks23
+\every@verbatim=\toks23
+\verbatim@line=\toks24
 \verbatim@in@stream=\read2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -166,51 +174,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen116
+\@emptytoks=\toks25
+\ex@=\dimen118
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen117
+\pmbraise@=\dimen119
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count93
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count94
+\leftroot@=\count95
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count96
+\DOTSCASE@=\count97
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen118
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks25
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks26
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks27
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks26
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks27
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks28
 \multlinegap=\skip47
 \multlinetaggap=\skip48
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -220,26 +228,26 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen125
+\bigstrutjot=\dimen127
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen126
-\extrarowheight=\dimen127
-\NC@list=\toks29
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks30
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-\TX@col@width=\dimen128
-\TX@old@table=\dimen129
-\TX@old@col=\dimen130
-\TX@target=\dimen131
-\TX@delta=\dimen132
-\TX@cols=\count104
-\TX@ftn=\toks30
+\TX@col@width=\dimen130
+\TX@old@table=\dimen131
+\TX@old@col=\dimen132
+\TX@target=\dimen133
+\TX@delta=\dimen134
+\TX@cols=\count105
+\TX@ftn=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -247,45 +255,77 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-\c@thm=\count105
-\c@theorem=\count106
-\c@lemma=\count107
-\c@corollary=\count108
-\c@result=\count109
- (./thesis.aux
-(./prelude.aux) (./introduction.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+
+
+! LaTeX Error: Command \singlespace already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.494 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \doublespace already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+\c@thm=\count106
+\c@theorem=\count107
+\c@lemma=\count108
+\c@corollary=\count109
+\c@result=\count110
+ (./thesis.aux (./prelude.aux) (./introduction.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter1.aux) (./proposed.aux) (./future.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen133
-\scratchbox=\box28
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen134
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count111
+\scratchdimen=\dimen135
+\scratchbox=\box29
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen136
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -314,25 +354,47 @@ e
 
 
 (./prelude.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.51 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.51 \maketitle
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 Package epstopdf Info: Source file: <iitglogo.eps>
 (epstopdf)                    date: 2013-04-03 10:57:40
 (epstopdf)                    size: 5800074 bytes
 (epstopdf)             Output file: <iitglogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-06 00:29:17
+(epstopdf)                    size: 267394 bytes
 (epstopdf)             Command: <repstopdf --outfile=iitglogo-eps-converted-to.
 pdf iitglogo.eps>
-(epstopdf)             \includegraphics on input line 50.
-runsystem(repstopdf --outfile=iitglogo-eps-converted-to.pdf iitglogo.eps)...exe
-cuted safely (allowed).
-
-Package epstopdf Info: Result file: <iitglogo-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-06 00:29:17
-(epstopdf)                    size: 267394 bytes.
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./iitglogo-eps-converted-to.pdf): PDF inclusion:
@@ -341,7 +403,7 @@ pdfTeX warning: pdflatex (file ./iitglogo-eps-converted-to.pdf): PDF inclusion:
 File: iitglogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use iitglogo-eps-converted-to.pdf>
-Package pdftex.def Info: iitglogo-eps-converted-to.pdf used on input line 50.
+Package pdftex.def Info: iitglogo-eps-converted-to.pdf used on input line 51.
 (pdftex.def)             Requested size: 112.85542pt x 113.81102pt.
  [1
 
@@ -349,81 +411,342 @@ Package pdftex.def Info: iitglogo-eps-converted-to.pdf used on input line 50.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitglogo-eps-converted-t
 o.pdf>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+ [1
+
+] [2
+
+] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 58.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+) [3
 
-] [2
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
- [3
-
-]
-[4
-
-] (./thesis.toc)
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [5
-
-] (./thesis.lof)
+ [4]
+(./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [6
-
-] [7
+ [5
 
 ])
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
 Chapter 1.
-) [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+<vlsi_dESIGN.png, id=36, 121.45375pt x 442.65375pt>
+File: vlsi_dESIGN.png Graphic file (type png)
+ <use vlsi_dESIGN.png>
+Package pdftex.def Info: vlsi_dESIGN.png used on input line 12.
+(pdftex.def)             Requested size: 45.52718pt x 165.92719pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+
+ []
+
+[1
+
+
+
+
+ <./vlsi_dESIGN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+) [2] [3]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Chapter 2.
+<rnnvanilla.png, id=49, 227.85126pt x 448.67625pt>
+File: rnnvanilla.png Graphic file (type png)
+ <use rnnvanilla.png>
+Package pdftex.def Info: rnnvanilla.png used on input line 22.
+(pdftex.def)             Requested size: 45.52718pt x 89.6515pt.
+
+[4
+
+
+
+ <./rnnvanilla.png>] <manyTomany.png, id=61, 1078.0275pt x 487.8225pt>
+File: manyTomany.png Graphic file (type png)
+
+<use manyTomany.png>
+Package pdftex.def Info: manyTomany.png used on input line 32.
+(pdftex.def)             Requested size: 364.19664pt x 164.80046pt.
+
+! Misplaced alignment tab character &.
+l.46 ... were initially introduced by Hochreiter &
+                                                   Schmidhuber in 1997 and t...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 ...thbf{W}_s, \mathbf{W}_f, \mathbf{W}_o$ \in
+                                                   $R^{NXM}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 ...{W}_s, \mathbf{W}_f, \mathbf{W}_o$ \in $R^
+                                                  {NXM}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[5 <./manyTomany.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+<lstm.png, id=65, 1022.82124pt x 614.295pt>
+File: lstm.png Graphic file (type png)
+ <use lstm.png>
+Package pdftex.def Info: lstm.png used on input line 89.
+(pdftex.def)             Requested size: 455.24408pt x 273.41196pt.
+ [6 <./lstm.png>]
+<multi-layer.png, id=69, 478.78876pt x 583.17876pt>
+File: multi-layer.png Graphic file (type png)
+ <use multi-layer.png>
+Package pdftex.def Info: multi-layer.png used on input line 99.
+(pdftex.def)             Requested size: 113.81102pt x 138.62207pt.
+)
+[7 <./multi-layer.png>]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+Chapter 3.
+[8
+
+
+
+] <pruning.png, id=77, 1003.75pt x 602.25pt>
+File: pruning.png Graphic file (type png)
+ <use pruning.png>
+Package pdftex.def Info: pruning.png used on input line 29.
+(pdftex.def)             Requested size: 113.81102pt x 68.2786pt.
+
+! Undefined control sequence.
+<argument> \WF@ovh 
+                   
+l.30 \end{wrapfigure}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.30 \end{wrapfigure}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.30 \end{wrapfigure}
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \begin{figure} on input line 26 ended by \end{wrapfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \end{wrapfigure}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<write> ...wrapfig Warning: Stationary \WF@wfname 
+                                                  forced to float\on@line .
+l.32 \subsection{Quantization}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package wrapfig Warning: Stationary forced to float on input line 32.
+
+! Undefined control sequence.
+\WF@putfigmaybe ...\the \lccode \lccode \WF@place 
+                                                  }}\hbox to\z@ {\@tempdima ...
+l.33 F
+      urther reduction of the model size is possible by quantizing the remai...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.33 F
+      urther reduction of the model size is possible by quantizing the remai...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...c@WF@wrappedlines\endcsname \WF@wli 
+                                                  \relax 
+l.33 F
+      urther reduction of the model size is possible by quantizing the remai...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.33 F
+      urther reduction of the model size is possible by quantizing the remai...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+) [9]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
+Chapter 4.
+[10
+
+
+
+] <images/da.png, id=85, 1167.36125pt x 597.23125pt>
+File: images/da.png Graphic file (type png)
+ <use images/da.png>
+Package pdftex.def Info: images/da.png used on input line 44.
+(pdftex.def)             Requested size: 408.58257pt x 209.03406pt.
+
+[11 <./images/da.png (PNG copy)>]
+<images/da_decom.png, id=89, 964.60374pt x 659.46375pt>
+File: images/da_decom.png Graphic file (type png)
+
+<use images/da_decom.png>
+Package pdftex.def Info: images/da_decom.png used on input line 95.
+(pdftex.def)             Requested size: 385.83466pt x 263.78082pt.
+ [12 <./images/da_decom.png (PNG copy)>] [13]
+<images/da_obc.png, id=97, 1051.93pt x 653.44125pt>
+File: images/da_obc.png Graphic file (type png)
+ <use images/da_obc.png>
+Package pdftex.def Info: images/da_obc.png used on input line 194.
+(pdftex.def)             Requested size: 368.18102pt x 228.70786pt.
+
+[14 <./images/da_obc.png (PNG copy)>]) [15]
+\openout2 = `proposed.aux'.
+
+ (./proposed.tex
+Chapter 5.
+<profile.png, id=104, 629.35126pt x 363.3575pt>
+File: profile.png Graphic file (type png)
+ <use profile.png>
+Package pdftex.def Info: profile.png used on input line 10.
+(pdftex.def)             Requested size: 364.19664pt x 210.27066pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [16
+
+
+
+ <./profile.png>]) [17]
+\openout2 = `future.aux'.
+
+ (./future.tex
+Chapter 6.
+) [18
 
 
 
 ]
 Missing character: There is no – in font ptmr7t!
- [2
+ [19
 
 
-] (./thesis.aux (./prelude.aux) (./introduction.aux)) ) 
+] (./thesis.aux (./prelude.aux) (./introduction.aux) (./chapter3.aux) (./chapte
+r4.aux) (./chapter1.aux) (./proposed.aux) (./future.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3453 strings out of 493029
- 45221 string characters out of 6136233
- 114487 words of memory out of 5000000
- 6871 multiletter control sequences out of 15000+600000
- 27930 words of font info for 60 fonts, out of 8000000 for 9000
+ 3658 strings out of 493029
+ 48213 string characters out of 6136233
+ 135870 words of memory out of 5000000
+ 7023 multiletter control sequences out of 15000+600000
+ 24775 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,26p,926b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (10 pages, 322794 bytes).
+ 34i,16n,26p,1018b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (25 pages, 939714 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 159 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,11 +52,11 @@
 % As iitgthesis class is a simple extension of report class, we simply
 % pass default options to report class.
 % =============================================================================
-\PassOptionsToClass{12pt,a4paper}{report}
+\PassOptionsToClass{10pt,a4paper}{report}
 \LoadClass{report}
 
 % who is advisor?
-\def\@advisorname{None}
+\def\@advisorname{Dr. Rafi Ahmed}
 \newcommand{\setguide}[1]{\def\@advisorname{#1}}
 
 % and coadvisor? (initialized to empty)
@@ -113,12 +113,10 @@
     \begin{center}
       \mbox{}\\
       {\bf\expandafter\uppercase\expandafter{\LARGE\@title}} \\[\@thesistitlebigskip]
-      {\large A \@doctype\ submitted in partial fulfillment of} \\
-      {\large the requirements for the degree of}\\[\@thesistitlemedskip]
-      {\large \@iitgdegree} \\[\@thesistitlemedskip]
-      {\large by} \\[\@thesistitlemedskip]
+
       {\large \bf \@author} \\
       {\large \bf (Roll No. \@rollnum)} \\[\@thesistitlebigskip]
+         {\large \@iitgdegree} \\[\@thesistitlemedskip]
       {\large Under the guidance of }  \\
       {\large \bf \@advisorname} \\
       \ifx\@coadvisorname\@empty
