@@ -1,0 +1,148 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:54:30 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 10534
+License: Customer
+
+Current time: 	Thu Nov 15 18:57:31 IST 2018
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 4.15.0-36-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 4 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.4/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.4/tps/lnx64/jre/bin/java
+
+User name: 	krispy
+User home directory: /home/krispy
+User working directory: /home/krispy/btp
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.4
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: /home/krispy/.Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: /home/krispy/.Xilinx/Vivado/2017.4/
+Vivado layouts directory: /home/krispy/.Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	/home/krispy/btp/vivado.log
+Vivado journal file location: 	/home/krispy/btp/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-10534-krispy-iitg
+
+GUI allocated memory:	136 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 819 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 55 MB (+54977kb) [00:00:18]
+// [Engine Memory]: 818 MB (+706185kb) [00:00:18]
+// Tcl Message: start_gui 
+// [GUI Memory]: 60 MB (+2967kb) [00:00:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 33 MB. Current time: 11/15/18 6:57:33 PM IST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 13 seconds
+dismissFileChooser();
+// 'i' command handler elapsed time: 13 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [Engine Memory]: 862 MB (+3457kb) [00:14:56]
+// g (cj): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 37 MB. Current time: 11/15/18 7:12:08 PM IST
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// [Engine Memory]: 906 MB (+577kb) [00:15:00]
+// Elapsed time: 20 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "distributed_arithmetic"); // X (N, g)
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// Elapsed time: 12 seconds
+selectButton("NEXT", "Next >"); // JButton (h, g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, g)
+String[] filenames31467 = {"/home/krispy/btp/DA based filter module codes/dafir.v", "/home/krispy/btp/DA based filter module codes/test_dafir.v"};
+setFileChooser(filenames31467);
+selectButton("NEXT", "Next >"); // JButton (h, g)
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// HMemoryUtils.trashcanNow. Engine heap size: 934 MB. GUI used memory: 36 MB. Current time: 11/15/18 7:13:03 PM IST
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// bs (g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project distributed_arithmetic /home/krispy/btp/distributed_arithmetic -part xc7k70tfbv676-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 961 MB (+9903kb) [00:16:07]
+// [GUI Memory]: 66 MB (+2548kb) [00:16:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 976 MB. GUI used memory: 41 MB. Current time: 11/15/18 7:13:19 PM IST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 6149.285 ; gain = 36.023 ; free physical = 369 ; free virtual = 7587 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {{/home/krispy/btp/DA based filter module codes/test_dafir.v} {/home/krispy/btp/DA based filter module codes/dafir.v}} 
+// Elapsed time: 14 seconds
+selectButton("FINISH", "Finish"); // JButton (h, g)
+// 'g' command handler elapsed time: 75 seconds
+dismissDialog("Create Project"); // bs (g)
+dismissDialog("New Project"); // g (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 71 MB (+1543kb) [00:16:14]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,014 MB (+5107kb) [00:16:16]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 76 MB (+1373kb) [00:16:39]
+// Elapsed time: 30 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_dafir (test_dafir.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_dafir (test_dafir.v)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cj)
+// PAPropertyPanels.initPanels (dafir.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_dafir (test_dafir.v), uut : dafir (dafir.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_dafir (test_dafir.v), uut : dafir (dafir.v), wtblk1 : weights (dafir.v)]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 42 MB. Current time: 11/15/18 7:14:09 PM IST
+floatView(PAResourceOtoP.PAViews_CODE, "dafir.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "dafir.v"); // ax (aF, FrameFloatingContainer)
+// [GUI Memory]: 81 MB (+2144kb) [00:17:11]
+// Elapsed time: 15 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "dafir.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "dafir.v"); // ax (aF, FrameFloatingContainer)
+// PAResourceOtoP.PAViews_CODE: Code: dock view

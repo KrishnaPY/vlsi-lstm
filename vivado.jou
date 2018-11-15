@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov 15 18:56:09 2018
+# Process ID: 10534
+# Current directory: /home/krispy/btp
+# Command line: vivado
+# Log file: /home/krispy/btp/vivado.log
+# Journal file: /home/krispy/btp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project distributed_arithmetic /home/krispy/btp/distributed_arithmetic -part xc7k70tfbv676-1
+add_files -norecurse {{/home/krispy/btp/DA based filter module codes/test_dafir.v} {/home/krispy/btp/DA based filter module codes/dafir.v}}
+update_compile_order -fileset sources_1
